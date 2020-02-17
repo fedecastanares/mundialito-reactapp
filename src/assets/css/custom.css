@@ -1,0 +1,46 @@
+.body {
+  background-color: red;
+}
+
+.MuiToolbar-root  img{
+  max-height: 10vh;
+  margin-right: 5vh;
+}
+
+.margen{
+  margin-top: 2.5rem;
+}
+
+.margen-chico{
+  margin-top: 1rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .logo{
+    width: 61vw;
+  }
+  
+  .MuiToolbar-root  img{
+    max-height: 6.5vh;
+    margin-right: 1vh;
+    
+  }
+  
+
+  .tabla-sm{
+    height: 10vh;
+  }
+  .margen{
+    margin-top: 1.5rem;
+  }
+  .margen-chico{
+    margin-top: 0.5rem;
+  }
+  .MuiTab-root{
+    font-size: 0.55rem !important;
+  }
+}
