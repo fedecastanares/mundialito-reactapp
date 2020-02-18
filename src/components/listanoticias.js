@@ -5,6 +5,8 @@ import Noticia from './noticia'
 
 const ListaNoticias = (props) => {
 
+
+    // Las noticias hay que sacarlas a un componente context para que sean de facil acceso y ademas no recarguen cada vez que se llama al componente con el switch
     const [noticias, leerNoticias] = useState([]);
     
     useEffect(() => {

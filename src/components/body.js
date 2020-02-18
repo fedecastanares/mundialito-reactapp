@@ -3,6 +3,7 @@ import ListaNoticias from './listanoticias.js'
 
 const Body = ({value, equipo, division}) => {
 
+    // equipo y division se pasan para despues usar filter
 
     switch (value){
         case 0:
